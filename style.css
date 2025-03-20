@@ -1,0 +1,103 @@
+/* *{
+    margin: 0%;
+
+
+}
+body {
+    background-image: url('images/750c3c11-0b77-494d-a773-fa8b3fe64970.webp'); 
+    background-size: cover; 
+    
+    background-position: center;
+}
+
+
+
+.title{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: red;
+    color: rgb(221, 221, 47);
+    font-size: 50px;
+  
+}
+ .food{
+    display: flex;
+    padding-left:  10%;
+    padding-right: 10%;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    background-color:rgb(184, 180, 180);
+    justify-content: center;
+}
+#burger{
+    background-color: green;
+}
+#pizza{
+    background-color: white;
+}
+#pasta{
+    background-color: red;
+}
+#burger,#pasta,#pizza{
+    border-style:solid;
+    border-radius: 10%;
+    margin: 0%;
+} */
+* {
+    margin: 0;
+}
+
+body {
+    background: url('images/750c3c11-0b77-494d-a773-fa8b3fe64970.webp') center/cover;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background: red;
+    color: rgb(221, 221, 47);
+    font-size: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background: rgb(184, 180, 180);
+}
+
+.food {
+    display: flex;
+    padding: 0 10%;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+#burger {
+    background: green;
+}
+
+#pizza {
+    background: white;
+}
+
+#pasta {
+    background: red;
+}
+
+#burger, #pizza, #pasta {
+    border: solid;
+    border-radius: 10%;
+    margin: 0;
+}
