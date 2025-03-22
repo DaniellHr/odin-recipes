@@ -1,57 +1,4 @@
-/* *{
-    margin: 0%;
-
-
-}
-body {
-    background-image: url('images/750c3c11-0b77-494d-a773-fa8b3fe64970.webp'); 
-    background-size: cover; 
-    
-    background-position: center;
-}
-
-
-
-.title{
-    font-family:'Courier New', Courier, monospace;
-    text-align: center;
-    background-color: red;
-    color: rgb(221, 221, 47);
-    font-size: 50px;
-  
-}
- .food{
-    display: flex;
-    padding-left:  10%;
-    padding-right: 10%;
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    align-items: center;
-    justify-content: center;
-}
-.menu{
-    display: flex;
-    text-align: center;
-    background-color:rgb(184, 180, 180);
-    justify-content: center;
-}
-#burger{
-    background-color: green;
-}
-#pizza{
-    background-color: white;
-}
-#pasta{
-    background-color: red;
-}
-#burger,#pasta,#pizza{
-    border-style:solid;
-    border-radius: 10%;
-    margin: 0%;
-} */
-* {
+/* * {
   margin: 0;
 }
 
@@ -125,4 +72,135 @@ body {
   text-align: center;
   border: solid;
   font-family: fantasy;
+}
+.header {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.home {
+  margin: uto;
+  display: inline-block;
+  padding: 10px 50px;
+  border: solid 2px yellow;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+.odinrecepie {
+  text-align: center;
+  font-size: 1.5rem;
+} */
+* {
+  margin: 0;
+}
+
+body {
+  background: url("images/750c3c11-0b77-494d-a773-fa8b3fe64970.webp")
+    center/cover;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background: red;
+  color: rgb(221, 221, 47);
+  font-size: 50px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  background: rgb(184, 180, 180);
+}
+
+.food {
+  display: flex;
+  padding: 0 10%;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Lucida Sans", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+#burger {
+  background: green;
+}
+
+#pizza {
+  background: white;
+}
+
+#pasta {
+  background: red;
+}
+
+#burger,
+#pizza,
+#pasta {
+  border: solid;
+  border-radius: 10%;
+  margin: 0;
+}
+
+.about {
+  width: 40%;
+  display: block;
+  background-color: red;
+  margin: 50px auto;
+  padding: 20px;
+  border: solid 2px;
+  border-radius: 10px;
+}
+
+#aboutme {
+  color: gold;
+  display: block;
+  text-align: center;
+  font-family: fantasy;
+}
+
+.discription {
+  padding: 10px;
+  background-color: gold;
+  text-align: center;
+  border: solid;
+  font-family: fantasy;
+}
+
+/* Header section */
+.header {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers all content */
+  padding: 10px 20px;
+  position: relative; /* needed for absolute positioning of Home */
+}
+
+/* Home link positioned on the left */
+.home {
+  position: absolute; /* remove it from normal flex flow */
+  left: 20px; /* adjust as needed for spacing */
+  display: inline-block;
+  padding: 10px 50px;
+  border: 2px solid yellow;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+/* Odin Recipes heading remains centered */
+.odinrecepie {
+  text-align: center;
+  font-size: 35px;
+  color: gold;
+  font-family: "Courier New", Courier, monospace;
 }
