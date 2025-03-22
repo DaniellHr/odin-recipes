@@ -52,52 +52,77 @@ body {
     margin: 0%;
 } */
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    background: url('images/750c3c11-0b77-494d-a773-fa8b3fe64970.webp') center/cover;
+  background: url("images/750c3c11-0b77-494d-a773-fa8b3fe64970.webp")
+    center/cover;
 }
 
 .title {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    background: red;
-    color: rgb(221, 221, 47);
-    font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background: red;
+  color: rgb(221, 221, 47);
+  font-size: 50px;
 }
 
 .menu {
-    display: flex;
-    justify-content: center;
-    background: rgb(184, 180, 180);
+  display: flex;
+  justify-content: center;
+  background: rgb(184, 180, 180);
 }
 
 .food {
-    display: flex;
-    padding: 0 10%;
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Lucida Sans', sans-serif;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  padding: 0 10%;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Lucida Sans", sans-serif;
+  align-items: center;
+  justify-content: center;
 }
 
 #burger {
-    background: green;
+  background: green;
 }
 
 #pizza {
-    background: white;
+  background: white;
 }
 
 #pasta {
-    background: red;
+  background: red;
 }
 
-#burger, #pizza, #pasta {
-    border: solid;
-    border-radius: 10%;
-    margin: 0;
+#burger,
+#pizza,
+#pasta {
+  border: solid;
+  border-radius: 10%;
+  margin: 0;
+}
+.about {
+  width: 40%;
+  display: block;
+  background-color: red;
+  margin: 50px auto;
+  padding: 20px;
+  border: solid 2px;
+  border-radius: 10px;
+}
+#aboutme {
+  color: gold;
+  display: block;
+  text-align: center;
+  font-family: fantasy;
+}
+.discription {
+  padding: 10px;
+  background-color: gold;
+  text-align: center;
+  border: solid;
+  font-family: fantasy;
 }
